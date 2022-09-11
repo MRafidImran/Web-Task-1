@@ -1,0 +1,97 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+    background-position: top;
+    height: 500px; /*To set length of header image*/
+    background-size: cover; /*fills img in container*/
+    align-items: center; /*to put text in cneter of containercenter*/
+    justify-content: center;
+    display: flex; /*Helps in horizontal page adjustment*/
+}
+
+h1 {
+    max-width: 780px;
+    font-family: "Roboto Slab", serif; /*  f-f: "family", style;  */
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    text-align: center
+}
+
+div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    line-height: 24px;
+    margin: 20px 0px;/*20px space btw paragraphs in img on x-axis and 0px on y-axis*/
+}
+
+.Profile_Text {
+    /*bold and Italic in html*/
+    text-align: center;
+    /*line hight set in p element*/
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+}
+
+#Profile_img {
+    width: 100px;
+    border-radius: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-width: thin;
+    margin-top: -50px; /*pushing image up into header image*/
+}
+
+.Body {
+    display: inline-block; /*keeps all the p elements in same initial point*/
+    margin: 60px;
+    width: 66.67%;
+}
+
+.Body_Heading {
+    font-family: "Roboto slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(51, 51, 51);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.Body_Heading_Number {
+    color: rgb(0, 0, 0, 0.25);
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    left: -59%;
+    width: calc(60% - 40px);
+}
+
+
+a {
+  color:#42b4d6;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
